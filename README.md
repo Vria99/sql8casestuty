@@ -42,3 +42,16 @@ WHERE dn = 1;
 
 ```
 ![SQldanny 3](https://github.com/user-attachments/assets/532288b4-eb77-4882-84e8-c78b7b20adf8)
+
+QUESTION NO4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+
+```
+SELECT product_name,
+COUNT ( product_name ) as ORDERS
+FROM SALES as S
+INNER JOIN menu as M on S.product_id = M.product_id
+GROUP BY product_name
+ORDER BY ORDERS DESC
+limit 1
+
+```
