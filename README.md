@@ -111,7 +111,7 @@ WHERE rank = 1
 
 ```
 8. What is the total items and amount spent for each member before they became a member?```
-
+```
 SELECT S.customer_id,
 SUM(price) AS total_amount_spent,
 COUNT(order_date) AS times_purchased
