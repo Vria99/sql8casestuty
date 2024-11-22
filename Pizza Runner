@@ -1,0 +1,11 @@
+Part 2 of the 8week challange - https://8weeksqlchallenge.com/case-study-2/
+
+Case Study Questions
+A. Pizza Metrics
+
+1. How many pizzas were ordered?
+///
+SELECT 
+COUNT(order_id) as pizzas_ordered
+FROM customer_orders
+////
