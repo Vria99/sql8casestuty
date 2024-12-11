@@ -1,4 +1,4 @@
-All the data and questions that I've answered in this markdown can be found at Dannys Website. (https://8weeksqlchallenge.com/case-study-1/)
+All the data and questions that I've answered in this markdown can be found at Dannys Website..(https://8weeksqlchallenge.com/case-study-1/)
 And all my solutions have been executed at DB Fiddle using POSTGRE SQL V 13 as given on the website
 
 QUESTION NO 1. What is the total amount each customer spent at the restaurant?
